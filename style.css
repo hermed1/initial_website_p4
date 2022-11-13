@@ -45,7 +45,7 @@ a:hover {
 }
 
 .bloc-lg {
-    padding: 100px 50px;
+    padding: 80px 50px;
 }
 
 .bloc-md {
@@ -679,9 +679,8 @@ a {
 p {
     font-size: 11px;
 }
-
+/* width modifiée: max-width 600px supprimée*/
 .tight-width-whitespace {
-    max-width: 600px;
     margin: auto auto auto auto;
 }
 
@@ -771,7 +770,7 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #C36137;
 }
 
 .tc-white {
@@ -779,7 +778,7 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #c97a56;
     color: #FFFFFF!important;
 }
 
@@ -1039,4 +1038,23 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+}
+/* modifications */
+.presentation{
+    padding: 0 15px;
+    display: flex;
+    justify-content: center;
+}
+.presentation__p{
+    font-size: 18px;
+    text-align: center;
+    font-weight: 500;
+    width: 590px
+}
+
+.realisations__title{
+    font-size: 16px;
+}
+.modifaccess{
+    color: #FFF;
 }
