@@ -679,9 +679,9 @@ a {
 p {
     font-size: 11px;
 }
-/* width modifiée: max-width 600px supprimée*/
 .tight-width-whitespace {
     margin: auto auto auto auto;
+    max-width: 600px;
 }
 
 .h1 {
@@ -776,7 +776,9 @@ h4 {
 .tc-white {
     color: #F3976C!important;
 }
-
+.class2h{
+    color: #fab08e!important;
+}
 .btn-atomic-tangerine {
     background: #c97a56;
     color: #FFFFFF!important;
@@ -847,13 +849,13 @@ h4 {
     }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
     }
 }
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+@media only screen and (min-width: 1024px) and (max-width: 1366px) {
     .b-parallax {
         background-attachment: scroll;
     }
@@ -871,10 +873,7 @@ h4 {
         overflow-x: hidden;
         position: relative;
     }
-    .bloc {
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
-    }
+   
     .bloc-group,
     .bloc-group .bloc {
         display: block;
@@ -883,8 +882,6 @@ h4 {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
     }
 }
 
@@ -1049,12 +1046,19 @@ h4 {
     font-size: 18px;
     text-align: center;
     font-weight: 500;
-    width: 590px
+    width: 590px;
 }
 
 .realisations__title{
     font-size: 16px;
+    padding: 0 20px;
 }
-.modifaccess{
-    color: #FFF;
+.citation_img{
+    max-width: 100%;
+}
+.citation_img img{
+    width: 100%;
+}
+.textpage2{
+    color: #FFF!important;
 }
