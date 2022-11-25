@@ -366,7 +366,7 @@ a:hover {
     .site-navigation {
         position: absolute;
         top: 50%;
-        right: 20px;
+        right: 200px;
         transform: translate(0, -50%);
         -webkit-transform: translateY(-50%);
     }
@@ -1059,6 +1059,24 @@ h4 {
 .citation_img img{
     width: 100%;
 }
+/* page contact  */
+
 .textpage2{
     color: #FFF!important;
+    width: 100%;
+    margin: 0;
+}
+.text__container{
+text-align: start !important;
+width: 100%;
+}
+.navbar .nav{
+padding: 0;
+margin: 0;
+}
+.nav > li{
+    list-style-type: none;
+}
+li > a{
+    text-decoration: none;
 }
