@@ -770,7 +770,7 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #C36137;
+    background-color: #b25c34;
 }
 
 .tc-white {
@@ -780,7 +780,7 @@ h4 {
     color: #fab08e!important;
 }
 .btn-atomic-tangerine {
-    background: #c97a56;
+    background: #b25c34;
     color: #FFFFFF!important;
 }
 
@@ -1117,4 +1117,7 @@ blockquote{
         display: flex;
         justify-content: center;
     }
+}
+.dernierp{
+    font-size: 15px;
 }
