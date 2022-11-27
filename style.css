@@ -1064,7 +1064,9 @@ h4 {
 .textpage2{
     color: #FFF!important;
     width: 100%;
-    margin: 0;
+}
+.textppage2{
+    font-size: 15px;
 }
 .text__container{
 text-align: start !important;
@@ -1079,4 +1081,40 @@ margin: 0;
 }
 li > a{
     text-decoration: none;
+}
+blockquote{
+    margin: 0;
+}
+.quote__p{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 100;
+    padding-left: 10px!important;
+}
+.btn:focus{
+    border: #FFF solid;
+}
+.textarea{
+    padding-right: 50px;
+}
+.container__form{
+    display: flex;
+    flex-direction: column;
+}
+.formseul{
+    margin-bottom: 20px;
+}
+@media (min-width: 768px) {
+    .formdiv{
+        width: 90%;
+    }
+    .btn__form{
+        width: 300px;
+
+    }
+    .btn__container{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
 }
